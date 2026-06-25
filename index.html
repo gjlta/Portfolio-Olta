@@ -2,154 +2,225 @@
 <html lang="fr">
 
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Olta - Portfolio</title>
+<title>Olta | Portfolio</title>
 
 <style>
 
+* {
+box-sizing: border-box;
+}
+
 body {
-font-family: Arial, sans-serif;
 margin: 0;
-background: #f4f4f4;
+font-family: Arial, Helvetica, sans-serif;
+background: #f4f6f8;
 color: #222;
 }
 
+
 header {
+
+background: #111827;
+color: white;
+text-align: center;
+padding: 60px 20px;
+
+}
+
+
 .photo {
-width:150px;
-height:150px;
-border-radius:50%;
-object-fit:cover;
-}
 
-<h1>Olta</h1>
-
-<h2>💻 Développeuse web junior</h2>
-
-<p>
-Passionnée par l'informatique et le développement web,
-je développe mes compétences à travers des projets personnels.
-</p>
-
-<a href="https://github.com/gjlta" target="_blank">
-🐙 Mon GitHub
-</a>
+width: 160px;
+height: 160px;
+border-radius: 50%;
+object-fit: cover;
+border: 4px solid white;
 
 }
+
+
+header h1 {
+
+font-size: 45px;
+margin-bottom: 10px;
+
+}
+
+
+header p {
+
+max-width: 700px;
+margin: auto;
+line-height: 1.6;
+
+}
+
+
+.button {
+
+display: inline-block;
+margin-top: 20px;
+padding: 12px 25px;
+background: white;
+color: #111827;
+text-decoration: none;
+border-radius: 25px;
+
+}
+
+
 
 section {
+
 background: white;
-margin: 25px;
-padding: 25px;
+margin: 30px auto;
+padding: 30px;
+max-width: 900px;
 border-radius: 15px;
+
 }
+
 
 h2 {
-margin-top: 0;
+
+color: #111827;
+
 }
 
-.card {
-margin-bottom: 20px;
+
+.skills {
+
+display: flex;
+flex-wrap: wrap;
+gap: 15px;
+
 }
+
+
+.tag {
+
+background: #e5e7eb;
+padding: 10px 15px;
+border-radius: 20px;
+
+}
+
+
+.card {
+
+margin-bottom: 25px;
+
+}
+
+
+footer {
+
+text-align:center;
+padding:30px;
+
+}
+
 
 </style>
 
+
 </head>
+
 
 
 <body>
 
 
+
 <header>
+
+
+<img src="photo.jpg" class="photo">
+
 
 <h1>Olta</h1>
 
-<h2>Étudiante en informatique</h2>
+
+<h2>💻 Future développeuse web</h2>
+
 
 <p>
-En apprentissage du développement web, je développe mes compétences
-à travers des projets personnels et de l'apprentissage autonome.
+
+Actuellement en recherche d'une alternance de deux ans dans le cadre d'un BTS SIO.
+Passionnée par l'informatique et le développement web, je développe mes compétences
+en programmation et en outils numériques à travers des projets personnels.
+
 </p>
+
+
+<a class="button" href="https://github.com/gjlta">
+
+🐙 Mon GitHub
+
+</a>
+
 
 </header>
 
 
 
+
+
 <section>
 
-<h2>À propos</h2>
+
+<h2>👩‍💻 À propos de moi</h2>
+
 
 <p>
-Titulaire d’un baccalauréat STMG Gestion-Finance, mon parcours m’a permis
-de développer rigueur, organisation et autonomie.
 
-Je souhaite aujourd’hui évoluer dans le domaine informatique et approfondir
-mes compétences en développement web.
+Titulaire d'un baccalauréat STMG Gestion-Finance, mes expériences professionnelles
+m'ont permis de développer de nombreuses qualités : rigueur, organisation,
+autonomie, gestion de dossiers et capacité d'adaptation.
+
+Je souhaite aujourd'hui évoluer dans le domaine informatique et intégrer un BTS SIO
+en alternance afin de développer mes compétences techniques et participer à des projets
+concrets en entreprise.
+
 </p>
 
-</section>
-
-
-
-<section>
-
-<h2>Compétences</h2>
-
-<ul>
-
-<li>HTML</li>
-<li>CSS</li>
-<li>JavaScript (en apprentissage)</li>
-<li>Git / GitHub</li>
-<li>Outils numériques</li>
-
-</ul>
 
 </section>
 
 
 
 
+
+
 <section>
 
-<h2>Expériences</h2>
+
+<h2>🛠️ Compétences</h2>
 
 
-<div class="card">
-
-<h3>Tribunal Judiciaire</h3>
-
-<p>
-Gestion de dossiers, utilisation d’outils numériques,
-traitement d’informations et respect des procédures.
-</p>
-
-</div>
+<div class="skills">
 
 
+<div class="tag">🌐 HTML</div>
 
-<div class="card">
+<div class="tag">🎨 CSS</div>
 
-<h3>Institut de beauté</h3>
+<div class="tag">⚡ JavaScript</div>
 
-<p>
-Gestion administrative, relation client, organisation,
-communication digitale et utilisation d’outils informatiques.
-</p>
+<div class="tag">🐙 Git / GitHub</div>
 
-</div>
+<div class="tag">💻 Visual Studio Code</div>
 
+<div class="tag">🖥️ Développement Web</div>
 
+<div class="tag">📱 Responsive Design</div>
 
-<div class="card">
+<div class="tag">🔧 Outils numériques</div>
 
-<h3>Autres expériences professionnelles</h3>
-
-<p>
-Adaptation, travail en équipe, autonomie et gestion des priorités.
-</p>
 
 </div>
 
@@ -159,23 +230,130 @@ Adaptation, travail en équipe, autonomie et gestion des priorités.
 
 
 
+
+
+
 <section>
 
-<h2>Projets</h2>
+
+<h2>💼 Expériences</h2>
 
 
-<h3>Portfolio personnel</h3>
+
+<div class="card">
+
+
+<h3>⚖️ Tribunal Judiciaire</h3>
+
 
 <p>
-Création d’un site web pour présenter mon parcours et mes compétences.
+
+Utilisation d'outils informatiques, gestion de dossiers numériques,
+traitement d'informations, communication professionnelle et respect
+des procédures.
+
 </p>
 
 
+</div>
 
-<h3>Application de gestion de budget</h3>
+
+
+
+<div class="card">
+
+
+<h3>🏢 Institut</h3>
+
 
 <p>
-Projet en cours : application permettant de suivre des dépenses et revenus.
+
+Gestion administrative, relation client, organisation, échanges par mails,
+utilisation d'outils numériques et suivi de dossiers.
+
+</p>
+
+
+</div>
+
+
+
+</section>
+
+
+
+
+
+
+
+<section>
+
+
+<h2>🚀 Projets</h2>
+
+
+
+<div class="card">
+
+
+<h3>🌐 Portfolio personnel</h3>
+
+
+<p>
+
+Création d'un site web personnel afin de présenter mon parcours,
+mes compétences et mes projets informatiques.
+
+</p>
+
+
+</div>
+
+
+
+
+<div class="card">
+
+
+<h3>💰 Application de gestion de budget</h3>
+
+
+<p>
+
+Projet en cours : création d'une application permettant de suivre
+des dépenses et organiser des données.
+
+</p>
+
+
+</div>
+
+
+
+
+</section>
+
+
+
+
+
+
+
+
+<section>
+
+
+<h2>📚 Objectif</h2>
+
+
+<p>
+
+
+Intégrer une entreprise en alternance pendant deux ans dans le cadre
+d'un BTS SIO afin de développer mes compétences en informatique,
+participer à des projets professionnels et évoluer dans le domaine du numérique.
+
+
 </p>
 
 
@@ -184,18 +362,20 @@ Projet en cours : application permettant de suivre des dépenses et revenus.
 
 
 
-<section>
 
-<h2>Contact</h2>
+<footer>
 
-<p>
-GitHub : github.com/gjlta
-</p>
 
-</section>
+<p>📩 Contact : à ajouter</p>
+
+<p>🐙 GitHub : github.com/gjlta</p>
+
+
+</footer>
 
 
 
 </body>
+
 
 </html>
